@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Image2DEngine/src/Image2DEngine.iml" filepath="$PROJECT_DIR$/Image2DEngine/src/Image2DEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Image2DEngineSourceFile.iml" filepath="$PROJECT_DIR$/.idea/Image2DEngineSourceFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Image2DEngine/src/main/main.iml" filepath="$PROJECT_DIR$/Image2DEngine/src/main/main.iml" />
+    </modules>
+  </component>
+</project>

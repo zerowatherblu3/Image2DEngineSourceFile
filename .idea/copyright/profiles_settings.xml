@@ -1,0 +1,10 @@
+<component name="CopyrightManager">
+  <settings default="mirror studio opening source">
+    <module2copyright>
+      <element module="Project Files" copyright="mirror studio opening source" />
+    </module2copyright>
+    <LanguageOptions name="__TEMPLATE__">
+      <option name="block" value="false" />
+    </LanguageOptions>
+  </settings>
+</component>
