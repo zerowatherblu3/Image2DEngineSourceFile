@@ -1,7 +1,8 @@
-// Copyright (c) 2021. mirror studio All resigned
-// you can edit this file without verify
+// Copyright (c) 2021.  mirror studio
+// This file is created by mirror studio
+// This file is opening source
 
-package complete.Things;
+package complete.Things
 
 internal open class ThingsInterface {
     val thingsName: String
@@ -17,5 +18,5 @@ internal open class ThingsInterface {
 }
 
 operator fun String.compareTo(i: Int): Int {
-    TODO("Not yet implemented")
+    TODO("Not yet implemented")//不太理解为什么这么做
 }

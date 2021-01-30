@@ -1,5 +1,6 @@
-// Copyright (c) 2021. mirror studio All resigned
-// you can edit this file without verify
+// Copyright (c) 2021.  mirror studio
+// This file is created by mirror studio
+// This file is opening source
 
 package run;
 
