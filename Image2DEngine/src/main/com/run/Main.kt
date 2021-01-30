@@ -4,8 +4,7 @@
 
 package run;
 
-import complete.Things.ThingsInterface
-import complete.Things.ThingsWeapon
+import complete.things.ThingsInterface
 
 internal class Main : ThingsInterface()
 
