@@ -11,4 +11,7 @@ internal open class MobInterface() {
     var mobComputingMoveSpeed : Double = 1.1 //移动速度 单位：m/s
         get() = field
         set
+    var mobComputingArmor : Double = 0.0 //护甲
+        get() = field
+        set
 }
