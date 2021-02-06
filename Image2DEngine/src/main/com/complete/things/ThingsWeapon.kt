@@ -4,7 +4,7 @@
 
 package complete.things
 
-internal class ThingsWeapon(weaponComputingBreakArmor: Double) : ThingsInterface() {
+internal open class ThingsWeapon(weaponComputingBreakArmor: Double) : ThingsInterface() {
     var weaponComputingAttackDamage : Double //武器攻击伤害
         get() = this.weaponComputingAttackDamage
         set(value) {if (value < 0) null else value}
@@ -13,7 +13,7 @@ internal class ThingsWeapon(weaponComputingBreakArmor: Double) : ThingsInterface
         set(value) {if (value < 0) null else value}
     var weaponAttackEffect : String //武器效果
         get() = decideWeaponAttackEffect().toString()
-        set(value) {if (value !in 0..6) null else value}
+        set(value) {if (value.toInt() !in 0..6) null else value}
     var weaponComputingBreakArmor : Double = weaponComputingBreakArmor //破甲
         get() = field
         set
@@ -21,5 +21,5 @@ internal class ThingsWeapon(weaponComputingBreakArmor: Double) : ThingsInterface
     fun decideWeaponAttackEffect() {
         when (weaponAttackEffect.toString()){
         }
-    }
+    }//在这里输入战斗中的各种属性
 }

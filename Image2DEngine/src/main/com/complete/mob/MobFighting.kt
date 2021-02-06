@@ -4,7 +4,7 @@
 
 package complete.mob
 
-class MobFighting {
+internal open class MobFighting {
     var friendlyEffect : Boolean = true
         get() = field
         set
@@ -20,4 +20,6 @@ class MobFighting {
             return enemy
         }
     }
+
+    fun Attacking(finalHealth : Double, finalMoveSpeed : Double ,finalArmor :Double, finalAttackDamage : Double, finalAttackBreakArmor : Double){}
 }
