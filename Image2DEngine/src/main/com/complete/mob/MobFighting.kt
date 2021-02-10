@@ -2,9 +2,10 @@
 // This file is created by mirror studio
 // This file is opening source
 
-package complete.mob
+import complete.mob.MobInterface
+import complete.things.ThingsWeapon
 
-internal open class MobFighting {
+public open class MobFighting {
     var friendlyEffect : Boolean = true
         get() = field
         set
@@ -21,5 +22,7 @@ internal open class MobFighting {
         }
     }
 
-    fun Attacking(finalHealth : Double, finalMoveSpeed : Double ,finalArmor :Double, finalAttackDamage : Double, finalAttackBreakArmor : Double){}
+    fun Attacking(finalHealth : Double, finalMoveSpeed : Double ,finalArmor :Double, finalAttackDamage : Double, finalAttackBreakArmor : Double){
+
+    }
 }

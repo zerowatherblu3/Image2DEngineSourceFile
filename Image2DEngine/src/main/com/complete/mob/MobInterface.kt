@@ -4,7 +4,7 @@
 
 package complete.mob
 
-internal open class MobInterface() {
+public open class MobInterface constructor (mobComputingHealth : Double, mobComputingMoveSpeed : Double, mobComputingArmor : Double) {
     var mobComputingHealth : Double = 100.0 //生命值
         get() = field
         set

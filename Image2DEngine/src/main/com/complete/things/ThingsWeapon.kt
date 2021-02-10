@@ -4,7 +4,7 @@
 
 package complete.things
 
-internal open class ThingsWeapon(weaponComputingBreakArmor: Double) : ThingsInterface() {
+public open class ThingsWeapon(weaponComputingBreakArmor: Double) : ThingsInterface() {
     var weaponComputingAttackDamage : Double //武器攻击伤害
         get() = this.weaponComputingAttackDamage
         set(value) {if (value < 0) null else value}

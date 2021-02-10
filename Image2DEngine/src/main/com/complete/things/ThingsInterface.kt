@@ -4,7 +4,7 @@
 
 package complete.things
 
-internal open class ThingsInterface {
+public open class ThingsInterface {
     var thingsName: String //物品名称
         get() = this.thingsName
         set(value) {}
