@@ -4,8 +4,5 @@
 
 package complete.mob;
 
-public interface mobTemplate {
-    String mobName = null;
-    double mobHealth = 100;
-
+public class MobDefault implements MobTemplate {
 }
